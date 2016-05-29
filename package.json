@@ -1,0 +1,29 @@
+{
+  "name": "travis-angular",
+  "version": "1.0.0",
+  "description": "starter app with travis karma angular",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheushf/travis-angular.git"
+  },
+  "keywords": [
+    "karma",
+    "travis",
+    "angular"
+  ],
+  "author": "matheushf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheushf/travis-angular/issues"
+  },
+  "homepage": "https://github.com/matheushf/travis-angular#readme"
+}
