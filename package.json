@@ -11,6 +11,9 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-jshint": "^1.0.0"
   },
+  "scripts": {
+    "test": "grunt --verbose"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matheushf/travis-angular.git"
