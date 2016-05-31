@@ -8,14 +8,14 @@ module.exports = function(grunt) {
             unit: {
                 configFile: 'config/karma.conf.js',
                 background: true
+            },
+            // Add a new travis ci karma configuration
+            // configs here override those in our existing karma.conf.js
+            travis: {
+                configFile: 'config/karma.conf.js',
+                singleRun: true,
+                browsers: ['PhantomJS']
             }
-        },
-        // Add a new travis ci karma configuration
-        // configs here override those in our existing karma.conf.js
-        travis: {
-            configFile: 'config/karma.conf.js',
-            singleRun: true,
-            browsers: ['PhantomJS']
         },
         watch: {
             karma: {
