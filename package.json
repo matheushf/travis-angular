@@ -7,17 +7,18 @@
     "test": "grunt test --verbose"
   },
   "devDependencies": {
+    "angular": "^1.5.6",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-karma": "^2.0.0",
     "karma": "^0.13.22",
-    "karma-junit-reporter": "^",
-    "karma-chrome-launcher": "^",
-    "karma-firefox-launcher": "^",
-    "karma-phantomjs-launcher": "^",
-    "karma-jasmine": "^"
+    "karma-chrome-launcher": ">",
+    "karma-firefox-launcher": ">",
+    "karma-jasmine": ">",
+    "karma-junit-reporter": ">",
+    "karma-phantomjs-launcher": "^1.0.0"
   },
   "repository": {
     "type": "git",
