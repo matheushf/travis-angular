@@ -6,7 +6,7 @@
   "scripts": {
     "test-grunt": "grunt test --verbose",
     "test-karma": "karma start karma.conf.js",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js --single-run"
   },
   "devDependencies": {
     "angular": "^1.5.6",
