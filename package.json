@@ -4,15 +4,24 @@
   "description": "starter app with travis karma angular",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-grunt": "grunt test --verbose",
+    "test-karma": "karma start karma.conf.js",
+    "test": "karma start karma.conf.js --single-run"
   },
   "devDependencies": {
+    "angular": "^1.5.6",
+    "angular-mocks": "^1.5.6",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-jshint": "^1.0.0"
-  },
-  "scripts": {
-    "test": "grunt --verbose"
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^0.3.8"
   },
   "repository": {
     "type": "git",
